@@ -163,6 +163,5 @@ def deal_init():
     stand.bind('<Button-1>', lambda event: game.finish_player_turn(dealer_2))
 
 
-
 deal.bind('<Button-1>', lambda event: deal_init())
 root.mainloop()
